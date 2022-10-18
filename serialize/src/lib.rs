@@ -11,6 +11,9 @@ mod error;
 mod flags;
 mod impls;
 
+// #[cfg(feature = "borsh")]
+mod borsh;
+
 use ark_std::borrow::ToOwned;
 pub use ark_std::io::{Read, Write};
 
